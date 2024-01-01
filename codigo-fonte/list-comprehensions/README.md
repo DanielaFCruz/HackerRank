@@ -11,30 +11,30 @@ I've created a new list [new_list] to store all combinations of i, j and k at in
 
 # Without the List Comprehensions: 
 
-if __name__ == '__main__':
-    x = int(input())
-    y = int(input())
-    z = int(input())
-    n = int(input())
+	if __name__ == '__main__':
+   		x = int(input())
+    		y = int(input())
+    		z = int(input())
+    		n = int(input())
 
-	new_list = []
-		for i in range (x + 1)
-			for j in range (y + 1)
-			    for k in range (z + 1)
-					 if i + j + k != n
-					 new_list.append([i, j, k])
-print(new_list)
+		new_list = []
+			for i in range (x + 1)
+				for j in range (y + 1)
+			    		for k in range (z + 1)
+					 	if i + j + k != n
+					 	new_list.append([i, j, k])
+	print(new_list)
 
 Obs.: The Append method in Python is used to add an element to the end of a list.
 
 # With o List Comprehensions:
 
-if __name__ == '__main__':
-    x = int(input())
-    y = int(input())
-    z = int(input())
-    n = int(input())
+	if __name__ == '__main__':
+    		x = int(input())
+   		y = int(input())
+    		z = int(input())
+    		n = int(input())
     
-new_list = [[i, j, k] for i in range (x+1)  for j in range (y+1) for k in range (z+1) if (i+j+k) !=n ]
+	new_list = [[i, j, k] for i in range (x+1)  for j in range (y+1) for k in range (z+1) if (i+j+k) !=n ]
 
-print(new_list)
+	print(new_list)
