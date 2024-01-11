@@ -1,1 +1,1 @@
-Exercícios resolvidos.
+Lista de exercícios "HackerRank" resolvidos em Python.
