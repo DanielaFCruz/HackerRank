@@ -25,7 +25,7 @@ I've created a new list [new_list] to store all combinations of i, j and k at in
 					 	new_list.append([i, j, k])
 	print(new_list)
 
-Obs.: The Append method in Python is used to add an element to the end of a list.
+Obs.: The "Append" method in Python is used to add an element to the end of a list.
 
 # With o List Comprehensions:
 
