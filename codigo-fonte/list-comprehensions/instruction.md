@@ -7,7 +7,7 @@ new_list = expression for item in iterable if condition
 - iterable: It is the sequence of elements that you will traverse.
 - condition (optional): This is a conditional expression that determines whether the item will be included in a new list or not.
 
-I've created a new list [new_list] to store all combinations of i, j and k at intervals (![[Pasted image 20231231081640.png]]), where the sum of these items is not equal to n.
+I've created a new list [new_list] to store all combinations of i, j and k at intervals, where the sum of these items is not equal to n.
 
 # Without the List Comprehensions: 
 
