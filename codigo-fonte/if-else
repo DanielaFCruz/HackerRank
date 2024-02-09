@@ -1,8 +1,23 @@
-Task If-Else
+Tarefa If-Else:
 
-Given an integer,n, perform the following conditional actions:
+Dado um número inteiro "n", execute as seguintes ações condicionais: 
 
-If n is odd, print Weird
-If n is even and in the inclusive range of  to , print Not Weird
-If n is even and in the inclusive range of  to , print Weird
-If n is even and greater than , print Not Weird
+•	Se n é estranho, imprima Weird
+•	Se n é par e está na faixa inclusiva de 2 para 5, imprimir Not Weird
+•	Se n é par e está na faixa inclusiva de 6 para 20, imprimir Weird
+•	Se n é par e maior que 20, imprimir Not Weird
+
+if __name__ == '__main__':
+    n = int(input().strip())
+
+if (n % 2) or (6 <= n <= 20):
+    print('Weird')
+else:
+    print('Not Weird')
+
+Obs.: Um número par é todo o número que divido por dois resulta em zero. Portanto, para descobrir se um número é par nesse exercício faça: n % 2 == 0. 
+
+n % 2 == 0
+•	"n" é a variável que armazenará o número que o “usuário” vai inserir para o cálculo;
+•	"%" é o resto da divisão;
+•	"==" trata-se do igual;
